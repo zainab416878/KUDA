@@ -8,7 +8,7 @@ import briefcase from "../assets/briefcase.svg"
 const Services = () => {
     return (
         <>
-        <section className="px-6 py-10 bg-white">
+        <section className="px-6 py-20 bg-white">
             <div className="flex items-center justify-center mb-10 text-[#40196D] text-3xl md:text-4xl">
                 <h1 className="font-bold">More for you</h1>
             </div>

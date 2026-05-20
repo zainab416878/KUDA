@@ -4,11 +4,12 @@ import AppStore from "../assets/AppStore.svg"
 import GooglePlay from "../assets/GooglePlay.svg"
 import cbn from "../assets/cbn.jpeg"
 import ndic from "../assets/ndic.jpeg"
+import download from "../assets/download.png"
 
 const Hero = () => {
     return (
         <>
-        <section className="px-6 pt-24 pb-20 bg-white">
+        <section className="px-6 pt-30 pb-20 bg-white">
             <div className=" md:flex-row flex flex-col max-w-4xl mx-auto flex items-center justify-between gap-12">
                 <div className="flex-1 max-w-xl text-center md:text-left">
                     <h1 className="text-4xl font-bold leading-tight text-[#40196D] mb-4">Get more with Kuda.</h1>
@@ -22,7 +23,7 @@ const Hero = () => {
                         <span>Deposits Insured by</span><img src={ndic} alt="NDIC" className="h-5 w-13"/>
                     </div>
                 </div>
-                    <img src={KudaPhone} alt="Kuda phone" className="w-full max-w-[350px]"/>
+                    <img src={download} alt="Kuda phone" className="w-full max-w-[400px]"/>
 
             </div>
         </section>

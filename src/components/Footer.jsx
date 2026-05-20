@@ -1,12 +1,18 @@
 import React from "react";
 import FooterColumn from "./FooterColumn";
 import Logo from "../assets/Logo.svg"
+import AppStore from "../assets/AppStore.svg"
+import GooglePlay from "../assets/GooglePlay.svg"
+
+
+
+
 const Footer = () => {
     return (
         <>
-        <footer className="bg-white pt-20 pb-10">
+        <footer className="bg-white pt-20 pb-10 border-t pt-10 border-gray-200">
             <div className="max-w-6xl mx-auto px-6">
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 border-t pt-10 border-gray-400">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10">
 
                         <img src={Logo} alt="KUDA"/>
 
@@ -32,7 +38,8 @@ const Footer = () => {
                         "Invoicing",
                         "POS Machine",
                         "Business Loan",
-                        "Business API"
+                        "Business API",
+                        "Join Kuda Business"
                     ]}
                     />
 
@@ -70,6 +77,11 @@ const Footer = () => {
                     ]}
                     />
                 </div>
+                <div className="mt-16 flex gap-5">
+                    <img src={AppStore} alt="app store"/>
+                    <img src={GooglePlay} alt="google play"/>
+                </div>
+                <p className="text-center text-[12px] text-[#40196D] mt-10">Products may vary by country or market.</p>
             </div>
         </footer>
         </>
