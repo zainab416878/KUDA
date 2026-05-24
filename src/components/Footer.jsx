@@ -3,6 +3,7 @@ import FooterColumn from "./FooterColumn";
 import Logo from "../assets/Logo.svg"
 import AppStore from "../assets/AppStore.svg"
 import GooglePlay from "../assets/GooglePlay.svg"
+import KudaWeb from "../assets/KudaWeb.svg"
 
 
 
@@ -80,6 +81,7 @@ const Footer = () => {
                 <div className="mt-16 flex gap-5">
                     <img src={AppStore} alt="app store"/>
                     <img src={GooglePlay} alt="google play"/>
+                    <img src={KudaWeb} alt="kuda web"/>
                 </div>
                 <p className="text-center text-[12px] text-[#40196D] mt-10">Products may vary by country or market.</p>
             </div>

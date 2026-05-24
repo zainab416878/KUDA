@@ -1,6 +1,9 @@
 import InfoSection from "../components/InfoSection.jsx";
 import { FaArrowRight } from "react-icons/fa";
-import lady from "../assets/lady.png"
+import lady from "../assets/Lady.svg"
+import Lady2 from "../assets/Lady2.svg"
+import ATM from "../assets/ATM.svg"
+import Man from "../assets/Man.svg"
 
 const Info = () => {
     return (
@@ -24,6 +27,7 @@ const Info = () => {
         text="You can’t avoid spending. That’s how you pay for your needs. But we can help you put money away every time you pay for something. Just set a percentage to save and watch your money grow."
         link="See all our Savings"
         icon={<FaArrowRight size={14}/>}
+        image={Lady2}
         />
 
         <InfoSection
@@ -32,6 +36,7 @@ const Info = () => {
         link="Learn more about Cards"
         icon={<FaArrowRight size={14}/>}
         reverse={true}
+        image={ATM}
         />
 
         <InfoSection
@@ -39,6 +44,7 @@ const Info = () => {
         text="You can chat with us on the app, slide into our DMs, tweet, leave an Instagram comment, send an email or call. However you choose to reach out, there’ll always be a friendly person there to make your life easy."
         link="Get Help"
         icon={<FaArrowRight size={14}/>}
+        image={Man}
         />
 
         <InfoSection

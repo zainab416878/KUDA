@@ -30,7 +30,7 @@ const InfoSection = ({
                     </a>
                 </div>
                 <div className="flex-1 flex justify-center">
-                    <div className=" shrink-0 h-72 w-72 rounded-full bg-[#DFE3FF]">
+                    <div className="">
                         <img src={image} alt="section image" className="object-contain"/>
                     </div>
                 </div>
